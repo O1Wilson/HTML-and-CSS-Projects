@@ -1,11 +1,12 @@
 body {
-	background-color: #00111A;
-	color: rgba(255,255,255,1);
-	text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
+	background-color: #fff;
 }
 
 h1 {
-	margin-left: 850px;
+	color: rgba(8,141,165,1);
+	margin-left: 100px;
+	text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
+}
 }
 
 .container {
@@ -17,7 +18,7 @@ h1 {
 }
 
 .container .squares:nth-child(-n+4) {
-	background-image: url("..images/icons/icons2.png")
+	background-image: "images/icons/icons.png";
 	color: #fff;
 	float: left;
 	width: 100px;
@@ -31,7 +32,7 @@ h1 {
 
 .squares:nth-child (-n+4) p{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size 1.5em;
+	font-size: 1.5em;
 	font-weight: 900;
 	text-align: center;
 	margin: 0;
@@ -55,7 +56,7 @@ h1 {
 }
 
 .container .squares:nth-child(-n+4):hover{
-	background-image: url("..images/icons/icons.png");
+	background-image: "images/icons/icons.png";
 	transform: scale(.5);
 	animation-name: race;
 	animation-duration: 2.5s;
@@ -63,26 +64,26 @@ h1 {
 	animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
 }
 
-.squares:nth-child(1) {
+.squares:nth-child(1):hover {
 	background: #13b4ff;
 }
 
-.squares:nth-child(2) {
+.squares:nth-child(2):hover {
 	background: #d861af;
 }
 
-.squares:nth-child(3) {
+.squares:nth-child(3):hover {
 	background: #81205f;
 }
 
-.squares:nth-child(4) {
+.squares:nth-child(4):hover {
 	background: #77b800;
 }
 
 @keyframes race {
 	0%, 100% {
 			transform: translateY(0px);
-			background-image: url("..images/icons/icons.png")
+			background-image: "images/icons/icons.png";
 	}
 	50% {
 		transform: translateY (300px);

@@ -3,13 +3,16 @@
 	<head>
 		<title>MyPortfolio</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/photo_style.css">
+		<link rel="stylesheet" href="css/basic_style.css">
+		<link rel="stylesheet" href="css/menu_rollover.css">
 	</head>
 	<body>
 		
 		<!-- NAV -->
-		<div>	
-			<div>
-				<ul>
+		<div class="wrap">	
+			<div class="menu-container">
+				<ul class='menu'>
 					<a href="#home" id="link"><li>Home</li></a>
 					<a href="#linktree" id="link"><li>LinkTree</li></a>
 					<a href="#gallery" id="link"><li>Gallery</li></a>
@@ -22,39 +25,29 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>Owen Wilson</span>
-				<div>
-			<div>
-		<div>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Owen Wilson</span>
+				</div>
+			</div>
+		</div>
 		<!-- END HOME -->
 		
 		<!-- LINKTREE -->
-		<section>
-			<div id="linktree">
+		<section id="linktree">
+			<div class="container">
 				<h1>LinkTree</h1>
-				<div>
+				<div "flex-container">
 					<div>
-						<div>
-							<div>
-								<a href="https://linkedin.com/in/owen-wilson-861147225" target="new"><em>LinkedIn</em></a>
-							</div>
-						</div>
+						<a href="https://linkedin.com/in/owen-wilson-861147225" target="new"><em>LinkedIn</em></a>
 					</div>
+							
 					<div>
-						<div>
-							<div>
-								<a href="https://github.com/O1Wilson" target="new"><em>GitHub</em></a>
-							</div>
-						</div>
+						<a href="https://github.com/O1Wilson" target="new"><em>GitHub</em></a>
 					</div>
+
 					<div>
-						<div>
-							<div>
-								<a href="https://www.instagram.com/kerchoo_wow/" target="new"><em>Instagram</em></a>
-							</div>
-						</div>
+						<a href="https://www.instagram.com/kerchoo_wow/" target="new"><em>Instagram</em></a>
 					</div>
 				</div>
 			</div>
@@ -62,17 +55,17 @@
 		<!-- END LINKTREE -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 					<!-- PHOTO CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_1.png" alt="">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Logo for PolyBurst<p>
 							</div>
 						</div>
@@ -80,11 +73,11 @@
 					<!-- END PHOTO CONTAINER 1 -->
 					
 					<!-- PHOTO CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_2.png" alt="">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>First Npc in PolyBurst<p>
 							</div>
 						</div>
@@ -92,11 +85,11 @@
 					<!-- END PHOTO CONTAINER 2 -->
 					
 					<!-- PHOTO CONTAINER 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_3.png" alt="">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Background for first level of PolyBurst<p>
 							</div>
 						</div>
@@ -104,11 +97,11 @@
 					<!-- END PHOTO CONTAINER 3 -->
 					
 					<!-- PHOTO CONTAINER 4 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_4.png" alt="">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Background for third level of PolyBurst<p>
 							</div>
 						</div>
@@ -116,11 +109,11 @@
 					<!-- END PHOTO CONTAINER 4 -->
 					
 					<!-- PHOTO CONTAINER 5 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_5.png" alt="">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Stone wall sprite<p>
 							</div>
 						</div>
@@ -128,11 +121,11 @@
 					<!-- END PHOTO CONTAINER 5 -->
 					
 					<!-- PHOTO CONTAINER 6 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_6.png" alt="">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Stone floor sprite<p>
 							</div>
 						</div>
@@ -140,11 +133,11 @@
 					<!-- END PHOTO CONTAINER 6 -->
 					
 					<!-- PHOTO CONTAINER 7 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_7.png" alt="">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Gravel sprite<p>
 							</div>
 						</div>
@@ -152,11 +145,11 @@
 					<!-- END PHOTO CONTAINER 7 -->
 					
 					<!-- PHOTO CONTAINER 8 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_8.png" alt="">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Wood planks sprite<p>
 							</div>
 						</div>
@@ -164,11 +157,11 @@
 					<!-- END PHOTO CONTAINER 8 -->
 					
 					<!-- PHOTO CONTAINER 9 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_9.png" alt="">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Broken wood sprite<p>
 							</div>
 						</div>
@@ -183,18 +176,18 @@
 		<!-- END PROJECTS -->
 		
 		<!-- Buisiness INQUIRIES -->
-		<section>
-			<div id="inquiries">
-				<div>
-					<h1>Buisiness Inquiries</h1>
-					<div>
+		<section id="inquiries">
+			<div "container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Buisiness Inquiries</h1>
+					<div class="reservation">
 						<h2><span>Need someone to write code for your game or website?</span>
 							<br />Send your Inquiry today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide me with your basic contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
@@ -202,7 +195,7 @@
 								<input class="rsvp" type="text" value="Phone Number">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
@@ -214,7 +207,7 @@
 		<!-- END Buisiness INQUIRIES -->
 		
 		<!-- FOOTER -->
-		<div>
+		<div id="footer">
 			www.MyPortfolio.OwenWilson &nbsp: | &nbsp: &copy; 2024
 		</div>
 		<!-- END FOOTER -->
