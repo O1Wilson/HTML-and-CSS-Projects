@@ -13,7 +13,7 @@ h1 {
 	height: 450px;
 	background-color: #faebd7;
 	border: 2px solid black;
-	border-radius: 54;
+	border-radius: 54px;
 }
 
 .container .squares:nth-child(-n+4) {
@@ -85,6 +85,6 @@ h1 {
 			background-image: url("../images/icons/icons.png");
 	}
 	50% {
-		transform: translateY (300px);
+		transform: translateY(300px);
 	}
 }
